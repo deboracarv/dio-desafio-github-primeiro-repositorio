@@ -1,0 +1,63 @@
+	Primeiro dominio criado: symbolics.com criado por um fabricante de computadores em Massachusetts
+	Primeiro blog: Links.net, janeiro de 1994 
+		Leia mais em: https://super.abril.com.br/coluna/superlistas/os-5-primeiros-blogs-da-internet
+	Primei	ra compra feita pela internet: E o primeiro produto a ser vendido foi um CD do cantor Sting, em 11 de agosto de 1994. O comprador foi um homem chamado Phil Brandenberger, morador da Philadelphia. No caso, o álbum era Ten Summoner's Tales, de 1993.
+	Qual o site mais antigo em atividade: nordu.net continua ativo até os dias atuais, o que pode ajudar a classificá-lo como o mais antigo do mundo fora da esfera militar.
+
+Redes:
+- Para fazer a conexão de internet em diversos computadores usa-se o Backbone, que é um aparelho robusto e poucas existentes no mundo, que controla todas as conexões de internet em um só lugar. Dela saem diversas conexões que se espalham levando as informações.
+- Cada país pode ter um ou mais provedor de acesso - que são as empresas telefônicas que contratam o serviço do backbone e repassam ao usuário final
+	- Os serviços podem ser Dial-up, ADSL (banda larga), fibra ótica, rádio, satélite, móvel ou P2P (peer to peer)
+- www -> DNS (transforma o URL em número) -> IP 
+
+Protocolos:
+- TCP/IP: Transmission Control Protocol e Internet Protocol
+	4 camadas para transmissão de dados:
+		1. Física (placa de rede)
+		2. Rede (IP - estar na internet)
+		3. Transporte (TCP ou UDP)
+		4. Aplicação (FTP, SMTP - email, HTTP)
+- TCP x UDP: os dois ja estão conectados quando vc tem internet
+	UDP: rápida, não confiável (sem confirmação de recebimento), dispara as informações sem controle -> é usado para lives, pois pouco importa quem está recebendo e se está recebendo. 
+	TCP: mais lento mas é voltado para conexão, confirma a comunicação de forma efetiva, mantém a integridade e ordem dos dados -> aplicativos de mensagens de texto, tem confirmação e ordem de dados
+- Portas: são "portos" específicos onde as informações devem chegar de acordo com o seu objetivo:
+	-20: FTP - porta para arquivos
+	-22: SSH - porta segura para executar comandos
+	-25 / 587 (internet moderna) / 465 (SMTP sobre SSL) / 2525 (Se a porta 587 estiver bloqueada, a porta 2525 é uma boa alternativa): SMTP - porta para mandar emails
+	-53: DNS - porta para tradutor de URL para IP
+	-80: HTTP - porta para requisição simples de internet
+	-443: HTTPS / Apache- porta para requisição segura de internet
+	-3306: MySQL
+- Modem: Modulator-demodulator - aparelho que modula e demodula sinais. Hardware que converte dados em um formado que possa ser transmitido de um computador para o outro e lido por outro
+- Roteador: Distribui a internet para um ou mais dispositivos. Pode fazer comunicação entre redes. Pode ser "burro" levando internet para todos de forma igual, mesmo sem necessidade.
+- Switch: Distribui internet para um ou mais dispositivos de uma rede. Criado para ser inteligente, levando internet para quem "pede"
+
+Linguagens mais utilizadas:
+- HTML > de marcação
+- CSS > de marcação
+- JavaScript (jQuery, AJAX, diversas libs)
+- PHP
+- .NET
+- ASP
+- Java
+- Ruby (on Rails)
+- Python
+- Perl
+- C/C++/C#
+
+Termos mais comuns de LP:
+- 404: erro mais famoso, quando a página não existe 
+- ALT: texto alternativo, como um texto de help
+- API: funcionalidade adicional que se coloca em site para desempenhar funções diferentes
+- dll: conjunto de ferramentas disponíveis que te ajuda a fazer funções adicionais
+- DPI: proporção de pontos de tela 
+- Framework: caixa de ferramentas para desenvolver o seu software
+- Meta tags: tags HTML que ficam no header 
+- MVC: Model view controler
+- MVP: Minimun viable product
+- SSL: Camada de segurança
+- UI: User interface
+- UX: User Experience
+- WYSIWYG: What you see is what you get
+
+https:/www.w3schools.com -> apender 
