@@ -1,0 +1,31 @@
+O que é Git: O Git é um sistema de controle de versão distribuído e amplamente adotado. O Git nasceu e foi tomando espaço dos outros sistemas de controle. Seu criador principal é o mesmo que o do Linux: Linus Torvalds, e ganhou o coração das pessoas que trabalham com open source.
+O que é GitHub:O Github tem sim muita relação com o Git. GitHub é uma plataforma para gerenciar seu código e criar um ambiente de colaboração entre devs, utilizando o Git como sistema de controle. Ele vai facilitar o uso do Git, escondendo alguns detalhes mais complicados de setup. É lá que você provavelmente vai ter seu repositório e usar no dia a dia.
+
+Link de instalação: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
+Comandos de terminal:
+- cd / cd .. (caminhar dentro das pastas)
+- dir (mostrar conteúdo de pastas)
+- mkdir (criar pastas)
+- echo nome_do_arquivo > nome_do_arquivo.txt (criar arquivos)
+- del (apagar arquivos)
+- rmdir (apagar pastas)
+- cls (limpar o terminal)
+- TAB (completa a palavra)
+- setinha pra cima (lista os últimos comandos)
+
+
+Principais comandos Git Bash:
+- ls (mostrar conteúdo de pastas)
+- ls -a (mostrar conteúdo de pastas, incluindo pastas ocultas)
+- git init (inicia a pasta no Git)
+- git config --global user.email "seu email" (configurar o git com suas credenciais do GitHub)
+- git config --global user.name "seu username" (configurar o git com suas credenciais do GutHub)
+- git status (verifica os status das pastas e arquivos do stage)
+- git add * (adiciona arquivos para o stage)
+- git commit -m "comentário do commit" (dar commit nas alterações para subir para o GitHub)
+- git remote add origin https:.... (insere o vinculo da pasta do GitHub com a pasta local)
+- git remote -v (mostra o link do origin)
+- git pull origin master (envia arquivos para o GitHub)
+- git push origin master (recebe arquivos do GitHub)
+- git clone (copia uma pasta do GitHub para sua maquina)
