@@ -26,6 +26,6 @@ Principais comandos Git Bash:
 - git commit -m "comentário do commit" (dar commit nas alterações para subir para o GitHub)
 - git remote add origin https:.... (insere o vinculo da pasta do GitHub com a pasta local)
 - git remote -v (mostra o link do origin)
-- git pull origin master (envia arquivos para o GitHub)
-- git push origin master (recebe arquivos do GitHub)
+- git push origin master (envia arquivos para o GitHub)
+- git pull origin master (recebe arquivos do GitHub)
 - git clone (copia uma pasta do GitHub para sua maquina)
