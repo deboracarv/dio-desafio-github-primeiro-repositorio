@@ -6,4 +6,8 @@ Desafio de projeto GitHub
 
 ## Index
 - Introdução ao Git e GitHub
-- Desenvolvimento Web (em desenvolvimento)
+- Desenvolvimento Web
+- JavaScript
+- Angular
+- Banco de Dados
+- .NET com C#
