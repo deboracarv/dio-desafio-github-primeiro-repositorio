@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - display flex</title>
+    <style>
+        .flex{
+            max-width: 300px;
+            max-height: 300px;
+            padding: 10px;
+            border: 2px solid black;
+            display: flex;
+            flex-flow: row-reverse wrap;
+            justify-content: center;
+            align-items: baseline;
+            align-content: space-around;
+        }
+
+        .item{
+            background-color: aqua;
+            margin: 5px;
+        }
+        
+        .flex_container{
+            margin: 0;
+            padding: 0;
+            border: 1px solid black;
+            display: flex;
+            list-style: none;
+            align-items: stretch;
+            align-content: space-around;
+        }
+
+        .flex_item{
+            background: blue;
+            height: 50px;
+            width: 50px;
+            line-height: 50px;
+            font-size: 20px;
+            color: white;
+            text-align: center;
+            margin: 5px;
+            flex: 1;
+            flex-wrap: wrap;
+        }
+
+        .row{
+            flex-direction: row;
+        }
+
+        .row-reverse{
+            flex-direction: row-reverse;
+        }
+
+        .column{
+            float: left;
+            flex-direction: column;
+        }
+
+        .column-reverse{
+            float: right;
+            flex-direction: column-reverse;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="flex">
+        <div class="item">item 1</div>
+        <div class="item">item 2</div>
+        <div class="item">item 3</div>
+        <div class="item">item 3</div>
+        <div class="item">item 3</div>
+        <div class="item">item 3</div>
+        <div class="item">item 3</div>
+        <div class="item">item 3</div>
+        <div class="item">item 3</div>
+        <div class="item">item 3</div>
+        <div class="item">item 3</div>
+        <div class="item">item 3</div>
+    </div>
+    
+    <ul class="flex_container row">
+        <li class="flex_item">1</li>
+        <li class="flex_item">2</li>
+        <li class="flex_item">3</li>
+        <li class="flex_item">4</li>
+        <li class="flex_item">5</li>
+    </ul>
+    <ul class="flex_container row-reverse">
+        <li class="flex_item">1</li>
+        <li class="flex_item">2</li>
+        <li class="flex_item">akljsdhflkas asdfasdf asdf sdfa sdf asdf </li>
+        <li class="flex_item">4</li>
+        <li class="flex_item">5</li>
+    </ul>
+    <ul class="flex_container column">
+        <li class="flex_item">1</li>
+        <li class="flex_item">2</li>
+        <li class="flex_item">3</li>
+        <li class="flex_item">4</li>
+        <li class="flex_item">5</li>
+    </ul>
+    <ul class="flex_container column-reverse">
+        <li class="flex_item">1</li>
+        <li class="flex_item">2</li>
+        <li class="flex_item">3</li>
+        <li class="flex_item">4</li>
+        <li class="flex_item">5</li>
+    </ul>
+</body>
+</html>

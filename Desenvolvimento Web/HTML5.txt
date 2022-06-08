@@ -1,0 +1,19 @@
+Semântica de HTML:
+<section> - Representa uma seção genérica de conteúdo
+<header> - cabeçalho de uma página ou de uma parte da pagina
+<article> - um conteduo relevante como um artigo de um blog
+<aside> - relacionado ao conteudo, como links uteis e ficam na lateral
+<footer> - rodapé da pagina ou de parte da pagina
+<h1>-<h6> - Títulos 
+<p> - Paragráfos
+<a> - Links
+	<a href="google.com">Google</a>
+	<a href="mailto:deborab.carvalho@hotmail.com">Meu email</a>
+	
+	<a target="_blank">Link</a>
+<img> - imagem
+	<img src="img/avatar.jpg".
+	<img alt="Foto de Lucas Vilaboim"> -> melhora a sensibilidade pois mostra a descrição da imagem quando ela nao é carregada
+<ul> - lista onde a ordem dos itens não é importante
+<ol> - ordem dos itens é importante
+<li> - item da lista

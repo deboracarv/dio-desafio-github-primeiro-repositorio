@@ -1,0 +1,85 @@
+O CSS3 usa seletores de HTML para modificar em massa esses elementos
+
+ID = . -> só pode ser usado uma vez na página
+Class = #
+	<header id="header" class="header"></header>
+	<header class="header"></header>
+
+Box model: 
+->Margin: São os espaçamentos entre elementos
+->Border: Circundam o padding e o conteudo (muda largura e cor)
+	.post {
+		border: 3px solid blue;
+		border-top: 2px dotted green;
+		border-right: 4px dashed pink;
+		border-bottom: 1px solid purple;
+		border-width: 3px;
+		border-color: green;
+		border-style: solid
+		border-top-width: 3px;
+		border-radius: 10px ou 50%;
+	}
+->Padding: Espaçamento entre a borda e o conteudo
+	.post {
+		padding: 15px(topo) 10px(direita) 5px(inferior) 0(esquerda) -se for zero nao precisa usar unidade;
+	}
+	ou
+	.post {
+		padding-top: 15px;
+		padding-right: 10px;
+		padding-bottom: 5px;
+		padding-left: 0;
+	}
+->Content: É o que voce tem no blog
+->Background
+	.post {
+		background-color: green;
+		background-color: #008800;
+		background: #008000 ou green;
+		background-image: url("bg.png");
+		background-position: top;
+	}
+
+Textos:
+->Font-family altera a fonte do texto
+	#title {
+		font-family: Verdana, Arial;
+	}
+->Font-size altera o tamanho da fonte
+	#title {
+		font-size: 30px;
+	}
+->Font-style altera a aparencia
+	#title {
+		font-style: italic;
+	}
+->Font-weight altera o "peso" do texto
+	#title {
+		font-weight: bold;
+	}
+->Text-transform altera o texto em maisculo e minusculo
+	#title {
+		text-transform: uppercase/lowercase/capitalize;
+	}
+->Text-decoration dá destaque ao texto
+	#title {
+		text-decoration: underline/overline/line-through;
+	}
+->List-style-type altera o marcador de listas
+	ul {
+		list-style-type: square/"\1F44D"; -> esse simbolo dá o emoji do joinha
+	}
+	ol {
+		list-style-type: upper-roman;
+	}
+	ul {
+		list-style-image: url("rocket.png"); -> esse coloca imagem
+	}
+
+Dimensão e Alinhamento
+->Width ajustar largura
+->Height ajustar altura
+->Max-width largura máxima do elemento
+->Max-height altura máxima do elemento
+->Margin espaçamento entre elementos (auto define automaticamente)
+->Text-align alinhar textos

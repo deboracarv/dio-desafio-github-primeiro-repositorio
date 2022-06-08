@@ -1,0 +1,19 @@
+Flexbox é um modelo de layout unidimensional, como um método que pode oferecer distribuição de espaço entre itens em uma interface e recursos de alinhamento
+
+Flex Container: é a tag que envolve os itens, que possui seus filhos. É onde será aplicada a propriedade "display: flex"
+	display
+	flex-direction
+	flex-wrap
+	flex-flow
+	justify-content
+	align-items
+	align-content
+
+Flex Item: São os itens filhos do container e também podem se torner Flex Container
+	flex-grow
+	flex-basis
+	flex-shrink
+	flex
+	order
+	align-self
+
