@@ -1,0 +1,16 @@
+Programa em .js
+
+Para comentar a linha: //
+Para comentar mais de uma linha: /* */
+Atalho: Ctrl + C + K
+
+function soma (a, b){
+	console.log(a + b); -> quando você não precisa do retorno, ele simplesmente mostra o resultado no debug para conferencia
+	return a + b; -> retorna o resultado da função em seu código
+}
+
+soma(3, 5); -> chama a função
+
+Operadores:
+	= -> igual
+	++ 
